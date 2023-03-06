@@ -2,7 +2,9 @@
 Le mini-projet contient 3 microservices :
 
 1 - parking-management-service : Ce microservice récupère les données d'une API (la liste des parkings pour un pays donné).
+
 2 - parking-discovery-service : Ce microservice enregistre les microservices sur Eureka pour la découverte de service.
+
 3 - parking-process-service : Ce microservice calcule les parkings les plus proches en se basant sur les coordonnées GPS 
 données en entrée de l'API. Pour cela, il communique avec parking-management-service pour récupérer la liste des parkings pour un pays donné.
 
